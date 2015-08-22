@@ -320,11 +320,18 @@ sup             { vertical-align: super }
 }
 
 
-#flickr li.widget_instagram_self_feed, #flickr li.widget_instagram_recent_media {
+#flickr li.widget_instagram_self_feed, 
+#flickr li.widget_instagram_recent_media,
+#flickr li.jr-insta-slider,
+#flickr li.jr-insta-slider li
+{
     list-style: none;
 }
 
-#flickr li.widget_instagram_self_feed a, #flickr li.widget_instagram_recent_media a {
+#flickr li.widget_instagram_self_feed a, 
+#flickr li.widget_instagram_recent_media a,
+#flickr li.jr-insta-slider div.jr-insta-thumb li
+{
 		float: left;
 		display: inline;
 		margin: 0 9px 15px 0;
@@ -333,4 +340,42 @@ sup             { vertical-align: super }
 
 #flickr .flickr_badge_image a:hover {
 	border: 1px dashed #fff;
+}
+
+#flickr .jr-insta-thumb ul.thumbnails li  {
+    width: 95px !important;
+}
+
+#flickr .jr-insta-thumb ul.thumbnails li img {
+    background-color: white;
+    vertical-align: middle;
+    box-shadow: 0 8px 6px -5px #000;
+    margin: 5px !important;
+    width: 75px;
+}
+
+body .mejs-controls,
+body .mejs-mediaelement,
+body .mejs-container {
+	background-color: #FF9601 !important;
+	margin-bottom: 10px;
+}
+ 
+/* change the color of the lettering */
+.mejs-currenttime,
+.mejs-duration {
+	color: black !important;
+}
+ 
+/* eliminate the yellow border around the play button during playback */
+.mejs-controls .mejs-button button:focus {
+	outline: none !important;
+}
+
+body .mejs-controls .mejs-time-total {
+	border: 1px solid black;
+}
+
+body .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: rgba(255, 150, 1, 0.8);	
 }
