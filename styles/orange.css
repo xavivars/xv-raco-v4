@@ -1,0 +1,18 @@
+/* orange Style */
+
+body#woothemes { background: #2b1b04 url(orange/bg.jpg) repeat-x center 0; }
+
+body#woothemes h1, 
+body#woothemes h2, 
+body#woothemes h3, 
+body#woothemes h4, 
+#footer #footerWrap #copy a,
+#sidebar a,
+ol.commentlist li p a
+{ color: #FF9600; }
+
+p.txt0, p.txt0 a, .continue
+{ color: #FF9600; }
+
+.txt0, .txt0 a, .continue { color: #FF9600;}
+

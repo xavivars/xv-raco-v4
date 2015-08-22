@@ -1,0 +1,238 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles here instead of style.css so it 
+is easier to update the theme. Simply copy an existing 
+style from style.css to this file, and modify it to 
+your liking.
+
+*/
+@import url('styles/orange.css');
+
+@font-face {  
+          font-family: "Qlassik";  
+                src: url("qlassik.eot"); /* IE   */
+          src: local("Qlassik"),
+                url("Qlassik_TB.ttf") format('truetype'); /* non-IE */  
+        }  
+
+
+a, a:link, a:visited {
+	color: #FF9600;
+}
+
+h3#myWritings {
+	background: url(styles/orange/bg-h2-elblog.png) no-repeat;
+	width: 131px; height: 57px;
+	cursor:pointer;
+}
+
+h3#myVideos {
+	background: url(styles/orange/bg-h2-elsvideos.png) no-repeat;
+	width: 164px; height: 41px;
+}
+
+h3#myPhotos {
+	background: url(styles/orange/bg-h2-lesfotos.png) no-repeat;
+	width: 144px; height: 56px;
+}
+
+#browseFlickr { width:35px; }
+
+h3#myPortfolio {
+	background: url(styles/orange/bg-h2-projectes.png) no-repeat;
+	width: 209px; height: 61px;
+}
+h3#myLifestream {
+	background: url(styles/orange/bg-h2-vidadigital.png) no-repeat;
+	width: 177px; height: 56px;
+}
+
+h3#myFavblog {
+	background: url(styles/orange/bg-h2-blogsamics.png) no-repeat;
+	width: 193px; height: 56px;
+}
+
+ul.idTabs li a {
+	height: 40px;
+}
+
+.imgfavicon
+{
+	display:block;
+	float:left;
+	margin-top:-3px;
+	margin-right:5px;
+}
+.imgfavicon img{
+	height: 16px;
+	width: 16px;
+}
+
+div#hi {
+	color: #white;
+	font: 12px/16px Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+	width: 440px;
+	position: absolute;
+	top: 145px; right: 0;
+	font-weight: bold;
+}
+	div#hi p {
+		margin-bottom: 5px;
+	}
+
+	div#hi p a {
+		color: #d0d0d0;
+		font: 11px/11px Arial, Helvetica, sans-serif;
+	}
+
+#tagcloud { text-align:justify; }
+
+div.post img.wp-smiley {
+	margin: 0px !important;
+	padding: 0px !important;
+	border: none !important;
+}
+
+div.post img.size-full {
+	background: #f8f8f8;
+}
+div.post #recaptcha_widget_div img { padding: 0px !important; }
+
+#recaptcha_widget_div { float:left; }
+
+.gform_wrapper .top_label .gfield_label { width: 80px; padding-right: 10px;}
+.gfield_description { margin-left: 90px; }
+
+/* wp_quotes */
+
+#wp_quotes
+{
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+#wp_quotes li { 
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #CCC;
+	padding-bottom: 5px;
+}
+
+#wp_quotes li:last-child {
+	border: 0;
+}
+
+#wp_quotes div.wp_quotes_author
+{
+	text-align:right;
+	font-style: italic;
+}
+
+div.wpquotes_poweredby
+{
+	text-align: center;
+	font-size: 0.8em;
+	margin-top: 12px;
+}
+
+div.minipost {
+	padding-top: 15px;
+}
+
+div.minipost h3 { display: none; }
+div.minipost .txt0 {display:none;}
+
+.post h3 a { font-size: 25px; }
+
+li.lifestream_li {
+	clear:both;
+	margin-bottom: 10px;
+}
+
+img.lifestream_img {
+	vertical-align: middle;
+	float:left;
+	display:block;
+}
+
+img.lifestream_img_yt {
+	padding-left: 20px;
+	margin-top: -5px;
+}
+
+div.lifestream_txt {
+	padding-left: 120px;
+}
+
+h2 {
+	font-family: Qlassik;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: Qlassik;
+	font-size: 25px;
+}
+strong {
+	font-weight: bold;
+}
+
+div.list3 ul.children li {
+	border: 0px;
+	padding-left: 26px;
+	line-height: 12px;
+}
+
+body#woothemes #sidebar h3 { color: white; }
+
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+.wp-caption {
+	background-color: #f3f3f3;
+	border: 1px dashed #888;;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px; /* optional rounded corners for browsers that support it */
+	margin: 10px;
+	padding-top: 4px;
+	text-align: center;
+}
+.wp-caption img {
+	border: 0 !important;
+	margin: 0;
+	padding: 0;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+	color: #333;
+}
+
+ol.commentlist li p {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.brwsniff {
+	color: #999;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #999;
+}
