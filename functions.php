@@ -1,11 +1,8 @@
 <?php
 
-define(LIFESTREAM_DATA,'/var/www/xavi.ivars.me/htdocs/wp-content/themes/racov4/lifestream.data');
+define('LIFESTREAM_DATA','/var/www/xavi.ivars.me/htdocs/wp-content/themes/racov4/lifestream.data');
 define('SFC_LOCALE','ca_ES');
 include(STYLESHEETPATH.'/data.php');
-
-//include(STYLESHEETPATH.'/widgets/xv-monthchunks.php');
-include(STYLESHEETPATH.'/widgets/xv-bookmarks.php');
 
 include(STYLESHEETPATH.'/includes/xv-cpt-tweet.php');
 
