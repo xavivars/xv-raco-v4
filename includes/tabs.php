@@ -1,9 +1,9 @@
 <div id="tabs">
 
     <ul class="idTabs tabs clearfix">
-        <li class="nav1"><a href="#comm"><img src="<?php bloginfo('template_directory'); ?>/images/ico-1.gif" alt="<?php _e('Comments',woothemes)?>" /></a></li>
-        <li class="nav2"><a href="#pop"><img src="<?php bloginfo('template_directory'); ?>/images/ico-2.gif" alt="<?php _e('Popular',woothemes)?>" /></a></li>
-        <li class="nav3"><a href="#tagcloud"><img src="<?php bloginfo('template_directory'); ?>/images/ico-5.gif" alt="<?php _e('Etiquetes',woothemes)?>" /></a></li>												
+        <li class="nav1"><a href="#comm"><img src="<?php bloginfo('template_directory'); ?>/images/ico-1.gif" alt="<?php _e('Comments','woothemes')?>" /></a></li>
+        <li class="nav2"><a href="#pop"><img src="<?php bloginfo('template_directory'); ?>/images/ico-2.gif" alt="<?php _e('Popular','woothemes')?>" /></a></li>
+        <li class="nav3"><a href="#tagcloud"><img src="<?php bloginfo('template_directory'); ?>/images/ico-5.gif" alt="<?php _e('Etiquetes','woothemes')?>" /></a></li>												
     </ul>
     <div class="inside">
 

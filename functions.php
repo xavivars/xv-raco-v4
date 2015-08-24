@@ -22,11 +22,11 @@ function xv_data($func) {
 }
 
 function xv_data_comment() {
-	xv_data(get_comment_date);
+	xv_data('get_comment_date');
 }
 
 function xv_data_post() {
-	xv_data(get_the_time);
+	xv_data('get_the_time');
 }
 
 function xv_translate_date_time($str) {
@@ -231,8 +231,12 @@ function is_minipost() { return ( in_category(11) && !is_single()); }
 
 if(!function_exists('lifestream')) {
 	function lifestream() {
-		$data = file_get_contents(LIFESTREAM_DATA);
-		$arr=json_decode($data);
+		$data = @file_get_contents(LIFESTREAM_DATA);
+		if($data) {
+            $arr=json_decode($data);
+        } else {
+            $arr = array();
+        }
 		echo '<ul class="lifestream">';
 		$last = '';
 		$wlast = '';

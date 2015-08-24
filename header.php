@@ -45,7 +45,7 @@
                         woo_custom_navigation_output('name=Woo Menu 1&depth=3');
     
                 } else { ?>
-				<li<?php if ( is_home() ) : ?> class="current_page_item"<?php endif; ?>><a href="<?php echo get_option('home'); ?>/"><?php _e('Home',woothemes); ?></a></li>
+				<li<?php if ( is_home() ) : ?> class="current_page_item"<?php endif; ?>><a href="<?php echo get_option('home'); ?>/"><?php _e('Home','woothemes'); ?></a></li>
 				<?php 
                 if (get_option('woo_nav') == 'true' ) 
                     wp_list_categories('sort_column=menu_order&depth=3&title_li=&exclude='); 
@@ -58,8 +58,8 @@
 			<form id="topSearch" class="search" method="get" action="<?php bloginfo('url'); ?>">
 					
 				<p class="fields">
-					<input type="text" value="<?php echo strtolower(__('Search',woothemes)); ?>" name="s" id="s" onfocus="if (this.value == '<?php echo strtolower(__('search',woothemes)); ?>') {this.value = '';}" onblur="if (this.value == '') {this.value = '<?php echo strtolower(__('search',woothemes)); ?>';}" />
-					<button class="replace" type="submit" name="submit"><?php _e('Search',woothemes); ?></button>
+					<input type="text" value="<?php echo strtolower(__('Search','woothemes')); ?>" name="s" id="s" onfocus="if (this.value == '<?php echo strtolower(__('search','woothemes')); ?>') {this.value = '';}" onblur="if (this.value == '') {this.value = '<?php echo strtolower(__('search','woothemes')); ?>';}" />
+					<button class="replace" type="submit" name="submit"><?php _e('Search','woothemes'); ?></button>
 				</p>
 
 			</form>

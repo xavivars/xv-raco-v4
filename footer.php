@@ -5,7 +5,7 @@
 		<div id="footerWrap">
 <?php /*
 			<p id="copy">
-				<?php _e('Copyright',woothemes); ?> &copy; <?php echo date('Y'); ?> <a href="#"><?php bloginfo('name'); ?></a>. <?php _e('All rights reserved',woothemes); ?>.
+				<?php _e('Copyright','woothemes'); ?> &copy; <?php echo date('Y'); ?> <a href="#"><?php bloginfo('name'); ?></a>. <?php _e('All rights reserved','woothemes'); ?>.
 			</p> */ 
 ?>			<p id="copy">
 				<a href="http://xavi.ivars.me/feed" title="Sindica 'El racó de Xavi'!">

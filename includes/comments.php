@@ -17,7 +17,6 @@ post_password = ''
 ORDER BY comment_date_gmt DESC LIMIT ".$comment_posts;
 
 $comments = $wpdb->get_results($sql);
-$output = $pre_HTML;
 
 foreach ($comments as $comment) {
 
