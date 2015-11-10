@@ -22,10 +22,6 @@
 	wp_head(); 
 ?>
 
-<script type="text/javascript"> 
-  jQuery("#idTabs").idTabs(); 
-</script>            
-
 </head>
 
 <body id="woothemes" <?php body_class('woothemes'); ?>>

@@ -5,6 +5,7 @@ jQuery(document).ready(function(){
 		h.remove();
 		p.children(0).css('margin-top','0px');
 	});
-	jQuery('#myWritings').click(function(){location.href='/bloc/'})
+	jQuery('#myWritings').click(function(){location.href='/bloc/'});
+	jQuery("#idTabs").idTabs();
 });
 

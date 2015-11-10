@@ -79,25 +79,31 @@ function xv_anunci($str=false) {
 	<?php
 	} elseif($str=='bloc-wpapertium') {
 	?>
-	<script type="text/javascript"><!--
-		google_ad_client = "pub-5598048210598472";
-		google_ad_slot = "5692788475";
-		google_ad_width = 468;
-		google_ad_height = 60;
-	//--></script>
-	<script async type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- bloc-wpapertium -->
+	<ins class="adsbygoogle"
+	     style="display:inline-block;width:468px;height:60px"
+	     data-ad-client="ca-pub-5598048210598472"
+	     data-ad-slot="5692788475"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
 
 	<?php
 	} else {
 
 	?>
-	<script type="text/javascript"><!--
-		google_ad_client = "pub-5598048210598472";
-		google_ad_slot = "9919928197";
-		google_ad_width = 468;
-		google_ad_height = 60;
-	//--></script>
-	<script async type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- blocbannertext -->
+	<ins class="adsbygoogle"
+	     style="display:inline-block;width:468px;height:60px"
+	     data-ad-client="ca-pub-5598048210598472"
+	     data-ad-slot="9919928197"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+
 
 	<?php
 	}
