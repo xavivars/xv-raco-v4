@@ -367,6 +367,16 @@ function remove_fbc_post_types($types) {
 	return $types;
 }
 
+add_filter( 'widget_title', 'xv_add_default_title', 11 );
+
+function xv_add_default_title ( $title ) {
+	if ( empty($title) ) {
+		$title = " ";
+	}
+
+	return $title;
+}
+
 register_sidebar( array(
     'id'          => 'fotos',
     'name'        => 'Fotos',
